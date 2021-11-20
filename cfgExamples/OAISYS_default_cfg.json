@@ -196,6 +196,21 @@
 															},
 															"size": 120.0,
 															"dispStrength": 0.03
+														},
+														{
+															"templatePath": "oaisys_data/examples/assets/materials/snow_01/snow_01.json",
+															"passParams": 	{ "rgb": {},
+																			  "semantic_label": {"labelIDVec": [[30,500,5,2]]},
+																			  "instance_label": {}
+																			},
+															"colorAdjustment": 	{
+																"cColorPoints": [[0.70758,0.30417]],
+																"rColorPoints": [[0.50909,0.48750]],
+																"gColorPoints": [[0.5,0.5]],
+																"bColorPoints": [[0.5,0.48750]]
+															},
+															"size": 120.0,
+															"dispStrength": 0.03
 														}
 														]
 								}}
