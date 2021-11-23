@@ -2,9 +2,9 @@
 	"SIMULATION_SETUP": {
 		"outputPath":"",
 		"defaultCfg": "",
-		"numBatches":2,
-		"numSamplesPerBatch":3,
-		"renderImages": true,
+		"numBatches":1,
+		"numSamplesPerBatch":1,
+		"renderImages": false,
 		"saveBlenderFiles": true,
 		"outputIDOffset":0
 	},
@@ -122,8 +122,8 @@
 																"stepIntervalOption": "GLOBAL",
 																"stepInterval": 1,
 																"SunSize": [0.545],
-																"SunIntensity": [1.0],
-																"SunElevation": [15.0,90.0],
+																"SunIntensity": [0.1],
+																"SunElevation": [80.0,90.0],
 																"SunRotation": [0.0,360.0],
 																"SunAltitude": [3000.0,3350.0],
 																"AirDensity": [1.0,2.0],
@@ -168,47 +168,11 @@
 														}},
 											"terrainTextureList": [
 														{
-															"templatePath": "oaisys_data/examples/assets/materials/rock_ground/rock_ground.json",
-															"passParams": 	{ "rgb": {},
-																			  "semantic_label": {"labelIDVec": [[30,500,5,2]]},
-																			  "instance_label": {}
-																			},
-															"colorAdjustment": 	{
-																"cColorPoints": [[0.70758,0.30417]],
-																"rColorPoints": [[0.50909,0.48750]],
-																"gColorPoints": [[0.5,0.5]],
-																"bColorPoints": [[0.5,0.48750]]
-															},
-															"size": 120.0,
-															"dispStrength": 0.03
-														},
-														{
-															"templatePath": "oaisys_data/examples/assets/materials/dry_ground_01/dry_ground_01.json",
-															"passParams": 	{ "rgb": {},
-																			  "semantic_label": {"labelIDVec": [[30,500,5,2]]},
-																			  "instance_label": {}
-																			},
-															"colorAdjustment": 	{
-																"cColorPoints": [[0.70758,0.30417]],
-																"rColorPoints": [[0.50909,0.48750]],
-																"gColorPoints": [[0.5,0.5]],
-																"bColorPoints": [[0.5,0.48750]]
-															},
-															"size": 120.0,
-															"dispStrength": 0.03
-														},
-														{
 															"templatePath": "oaisys_data/examples/assets/materials/snow_01/snow_01.json",
 															"passParams": 	{ "rgb": {},
-																			  "semantic_label": {"labelIDVec": [[30,500,5,2]]},
-																			  "instance_label": {}
+																			"semantic_label": {"labelIDVec": [[30,500,5,2]]},
+																			"instance_label": {}
 																			},
-															"colorAdjustment": 	{
-																"cColorPoints": [[0.70758,0.30417]],
-																"rColorPoints": [[0.50909,0.48750]],
-																"gColorPoints": [[0.5,0.5]],
-																"bColorPoints": [[0.5,0.48750]]
-															},
 															"size": 120.0,
 															"dispStrength": 0.03
 														}
